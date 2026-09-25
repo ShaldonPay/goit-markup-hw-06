@@ -80,3 +80,29 @@ button {
   text-align: center;
   color: var(--navy-blue);
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal {
+    width: calc(100% - 32px);
+    max-width: 392px;
+    min-height: auto;
+  }
+}

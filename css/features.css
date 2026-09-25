@@ -40,3 +40,34 @@
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+@media screen and (max-width: 767px) {
+  .features-icon-box {
+    display: none;
+  }
+
+  .features-item {
+    width: 100%;
+  }
+
+  .features-list {
+    flex-wrap: wrap;
+    gap: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .features-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .features-icon-box {
+    display: flex;
+  }
+}
