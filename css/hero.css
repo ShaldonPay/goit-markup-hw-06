@@ -106,4 +106,7 @@
         url('../images/hero-desktop@2x.png') 2x
       );
   }
-}
+
+  .hero-title {
+    margin-bottom: 48px;
+  }
