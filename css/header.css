@@ -168,10 +168,6 @@ address {
     padding-top: 24px;
     padding-bottom: 24px;
   }
-
-  .nav-list,
-.contacts-list {
-  display: none;
 }
 
 .menu-open-btn {
