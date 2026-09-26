@@ -107,3 +107,15 @@
     display: none;
   }
 }
+
+.mobile-menu-contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobile-menu-tel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
