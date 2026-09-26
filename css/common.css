@@ -48,14 +48,15 @@ button {
 }
 
 .container {
-  max-width: 1158px;
+  width: 100%;
+  max-width: 320px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .sr-only {
@@ -84,6 +85,7 @@ button {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding: 0 16px;
   }
 }
 
@@ -96,13 +98,5 @@ button {
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .modal {
-    width: calc(100% - 32px);
-    max-width: 392px;
-    min-height: auto;
   }
 }

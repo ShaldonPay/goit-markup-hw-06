@@ -231,3 +231,15 @@
 .modal-submit:focus {
   background-color: #404bbf;
 }
+
+.modal {
+  width: 288px;
+  padding: 72px 16px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px;
+  }
+}
